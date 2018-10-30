@@ -48,10 +48,10 @@ So stellen Sie Daten von einer Azure Backup Server-Instanz wieder her:
 5. Klicken Sie mit der rechten Maustaste auf das entsprechende Element, und klicken Sie dann auf **Wiederherstellen**.
 
     ![Externe DPM-Wiederherstellung](./media/backup-azure-alternate-dpm-server/recover.png)
-6. Überprüfen Sie die **Wiederherstellungsauswahl**. Überprüfen Sie Datum und Uhrzeit der wiederhergestellten Sicherungskopie sowie die Quelle, aus der die Sicherungskopie erstellt wurde. Wenn die Auswahl fehlerhaft ist, klicken Sie auf **Abbrechen** , und navigieren Sie zur Registerkarte "Wiederherstellung", um dort den richtigen Wiederherstellungspunkt auszuwählen. Wenn die Auswahl richtig ist, klicken Sie auf **Weiter**.
+6. Überprüfen Sie die **Wiederherstellungsauswahl**. Überprüfen Sie Datum und Uhrzeit der wiederhergestellten Sicherungskopie sowie die Quelle, aus der die Sicherungskopie erstellt wurde. Wenn die Auswahl fehlerhaft ist, klicken Sie auf **Abbrechen**, und navigieren Sie zur Registerkarte "Wiederherstellung", um dort den richtigen Wiederherstellungspunkt auszuwählen. Wenn die Auswahl richtig ist, klicken Sie auf **Weiter**.
 
     ![Zusammenfassung zur externen DPM-Wiederherstellung](./media/backup-azure-alternate-dpm-server/external-dpm-recovery-summary.png)
-7. Wählen Sie **An anderem Speicherort wiederherstellen**aus. **Durchsuchen** den richtigen Speicherort für die Wiederherstellung aus.
+7. Wählen Sie **An anderem Speicherort wiederherstellen** aus. **Durchsuchen** den richtigen Speicherort für die Wiederherstellung aus.
 
     ![Alternativer Speicherort für externe DPM-Wiederherstellung](./media/backup-azure-alternate-dpm-server/external-dpm-recovery-alternate-location.png)
 8. Wählen Sie die gewünschte Option aus: **Kopie erstellen**, **Überspringen** oder **Überschreiben**.
@@ -60,7 +60,7 @@ So stellen Sie Daten von einer Azure Backup Server-Instanz wieder her:
    * **Überspringen**: Bei einem Namenskonflikt wird die Datei nicht wiederhergestellt, sodass die ursprüngliche Datei bleibt.
    * **Überschreiben**: Bei einem Namenskonflikt wird die vorhandene Kopie der Datei überschrieben.
 
-     Wählen Sie die entsprechende Option für **Sicherheit wiederherstellen**aus. Sie können die Sicherheitseinstellungen des Zielcomputers anwenden, auf dem die Daten wiederhergestellt werden, oder die Sicherheitseinstellungen, die für das Produkt zum Zeitpunkt der Erstellung des Wiederherstellungspunkts galten.
+     Wählen Sie die entsprechende Option für **Sicherheit wiederherstellen** aus. Sie können die Sicherheitseinstellungen des Zielcomputers anwenden, auf dem die Daten wiederhergestellt werden, oder die Sicherheitseinstellungen, die für das Produkt zum Zeitpunkt der Erstellung des Wiederherstellungspunkts galten.
 
      Geben Sie an, ob eine **Benachrichtigung** gesendet wird, sobald die Wiederherstellung erfolgreich abgeschlossen ist.
 
@@ -95,7 +95,7 @@ Für die vorhandenen DPM-Server mit Datenquellen, die in der Cloud (mithilfe ein
 
 ### <a name="what-is-the-minimum-version-of-the-microsoft-azure-recovery-services-agent-needed"></a>Welche Mindestversion des Microsoft Azure Recovery Services-Agents ist erforderlich?
 
-Die zum Aktivieren dieses Features erforderliche Mindestversion des Microsoft Azure Recovery Services-Agents bzw. Azure Backup-Agents ist 2.0.8719.0.  So können Sie die Version des Agents überprüfen: Öffnen Sie „Systemsteuerung“ **>** „Alle Systemsteuerungselemente“ **>** „Programme und Funktionen“ **>** „Microsoft Azure Recovery Services-Agent“. Wenn die Version kleiner als 2.0.8719.0 ist, laden Sie den [neuesten Azure Backup-Agent](https://go.microsoft.com/fwLink/?LinkID=288905) herunter, und installieren Sie ihn.
+Die zum Aktivieren dieses Features erforderliche Mindestversion des Microsoft Azure Recovery Services-Agents bzw. Azure Backup-Agents ist 2.0.8719.0.  So können Sie die Version des Agents überprüfen: Öffnen Sie „Systemsteuerung“ **>** „Alle Systemsteuerungselemente“ **>** „Programme und Funktionen“ **>** „Microsoft Azure Recovery Services-Agent“. Wenn die Version kleiner als 2.0.8719.0 ist, laden Sie den [neuesten Azure Backup-Agent](https://go.microsoft.com/fwLink/?LinkID=288905) herunter und installieren Sie ihn.
 
 ![Löschen des externen DPM](./media/backup-azure-alternate-dpm-server/external-dpm-azurebackupagentversion.png)
 
