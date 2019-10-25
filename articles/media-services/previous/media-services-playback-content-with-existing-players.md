@@ -25,9 +25,9 @@ ms.locfileid: "69015290"
 Azure Media Services unterstützt zahlreiche gängige Streamingformate wie Smooth Streaming, HTTP Live Streaming und MPEG-Dash. In diesem Thema finden Sie Verweise auf vorhandene Player, die Sie zum Testen von Datenströmen verwenden können.
 
 ### <a name="the-azure-portal-media-services-content-player"></a>Der Media Services-Inhaltsplayer im Azure-Portal
-Im **Azure** -Portal wird ein Inhaltsplayer bereitgestellt, mit dem Sie Ihre Videos testen können.
+Im **Azure**-Portal wird ein Inhaltsplayer bereitgestellt, mit dem Sie Ihre Videos testen können.
 
-Klicken Sie auf den gewünschten Videoinhalt (vergewissern Sie sich, dass er [veröffentlicht](media-services-portal-publish.md)wurde), und klicken Sie auf die Schaltfläche **Abspielen** am unteren Rand des Portals.
+Klicken Sie auf den gewünschten Videoinhalt (vergewissern Sie sich, dass er [veröffentlicht](media-services-portal-publish.md) wurde), und klicken Sie auf die Schaltfläche **Abspielen** am unteren Rand des Portals.
 
 Folgende Überlegungen sollten berücksichtigt werden:
 
