@@ -33,7 +33,7 @@ Azure Migrate hilft Ihnen bei der Migration zu Azure. Azure Migrate bietet einen
 Es sind zwei Versionen des Azure Migrate-Diensts verfügbar:
 
 - **Aktuelle Version**: Verwenden Sie diese Version, um Azure Migrate-Projekte zu erstellen, lokale Computer zu ermitteln und Bewertungen und Migrationen zu orchestrieren. [Erfahren Sie mehr](whats-new.md) über die Neuerungen in dieser Version.
-- **Vorherige Version**: Wenn Sie die Vorgängerversion von Azure Migrate verwendet haben (es wird nur die Bewertung von lokalen VMware-VMs unterstützt), sollten Sie ab sofort die aktuelle Version verwenden. Azure Migrate-Projekte können nicht mehr mit der vorherigen Version erstellt werden, und es wird empfohlen, keine neuen Ermittlungen auszuführen. Um auf vorhandene Projekte zuzugreifen, wählen Sie im Azure-Portal **Alle Dienste** aus, und suchen Sie dann nach **Azure Migrate**. Im Azure Migrate-Dashboard sind eine Benachrichtigung und ein Link für den Zugriff auf alte Azure Migrate-Projekte vorhanden.
+- **Vorherige Version**: Wenn Sie die Vorgängerversion von Azure Migrate verwendet haben (es wird nur die Bewertung von lokalen VMware-VMs unterstützt), sollten Sie ab sofort die aktuelle Version verwenden. Azure Migrate-Projekte können nicht mehr mit der vorherigen Version erstellt werden und es wird empfohlen, keine neuen Ermittlungen auszuführen. Um auf vorhandene Projekte zuzugreifen, wählen Sie im Azure-Portal **Alle Dienste** aus, und suchen Sie dann nach **Azure Migrate**. Im Azure Migrate-Dashboard sind eine Benachrichtigung und ein Link für den Zugriff auf alte Azure Migrate-Projekte vorhanden.
 
 ## <a name="isv-integration"></a>ISV-Integration
 
